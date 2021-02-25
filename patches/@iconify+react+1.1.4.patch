@@ -1,0 +1,14 @@
+diff --git a/node_modules/@iconify/react/dist/icon.js b/node_modules/@iconify/react/dist/icon.js
+index d33c1f4..61c757b 100644
+--- a/node_modules/@iconify/react/dist/icon.js
++++ b/node_modules/@iconify/react/dist/icon.js
+@@ -5,7 +5,9 @@ Object.defineProperty(exports, "__esModule", {
+ });
+ exports["default"] = exports.InlineIcon = exports.Icon = void 0;
+ 
++console.log('REQUIRE', require('react'));
+ var _react = _interopRequireDefault(require("react"));
++console.log('INTEROP REQUIRE DEFAULT', _react);
+ 
+ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+ 

@@ -17,7 +17,7 @@ Figma tool is also extends this ts configuration
       "dist/*": ["dist/*"]
     },
     */
-    "allowJs": false,
+    "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,

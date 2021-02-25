@@ -3,6 +3,7 @@
 
 * `npm i` (I used major v6, but v7 should work)
 * `npm test` should cause `TypeError: _react.default.createElement is not a function`
+* `npm run patch-package` to get the same console logging explained below:
 
 
 It seems that `require('react')` inside the `node_modules/@iconify/react/dist/icon.js`
