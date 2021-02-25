@@ -1,0 +1,32 @@
+/*
+Base config that could be extended for other purposes, like building ESM modules.
+Figma tool is also extends this ts configuration
+*/
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": ".",
+    /*
+    Tried also this, same issue as before
+    "paths": {
+      "*": ["node_modules/*"],
+      "src/*": ["src/*"],
+      "tools/*": ["tools/*"],
+      "types/*": ["types/*"],
+      "tokens.json": ["tokens.json"],
+      "dist/*": ["dist/*"]
+    },
+    */
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "jsx": "react"
+  }
+}
